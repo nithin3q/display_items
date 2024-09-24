@@ -1,27 +1,51 @@
-# DisplayItems
+# Display Items - Angular Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+This project is a simple Angular application that displays a list of products fetched from a public API. Users can filter the products by title and sort them in ascending or descending order. It is styled using Bootstrap and ng-bootstrap for responsive and modern design.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Product List**: Displays a list of items with their details including image, price, stock, and rating.
+- **Search**: Filter items by typing in the search box.
+- **Sort**: Sort items by title in ascending or descending order.
+- **Loading Spinner**: Displays a loading spinner while fetching data.
+- **Responsive Design**: The layout is fully responsive and adapts to different screen sizes.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/) (v18.2)
+- [Bootstrap](https://getbootstrap.com/)
+- [ng-bootstrap](https://ng-bootstrap.github.io/)
+- [Public API for products](https://dummyjson.com/)
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get a local copy up and running, follow these simple steps.
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js and npm installed on your machine. [Download here](https://nodejs.org/).
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repo**:
 
-## Further help
+   ```bash
+   git clone https://github.com/nithin3q/display_items.git
+  ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd display_items
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the application**:
+   ```bash
+   ng serve
+   ```
+**Open your browser**:
+   ```bash
+   http://localhost:4200/
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
