@@ -31,23 +31,23 @@ To get a local copy up and running, follow these simple steps.
 
    ```bash
    git clone https://github.com/nithin3q/display_items.git
-  ```
+   ```
 
 2. **Navigate to the project directory**:
-   ```
+   ```bash
    cd display_items
    ```
 
 3. **Install dependencies**:
-   ```
+   ```bash
    npm install
    ```
 
 4. **Start the application**:
-   ```
+   ```bash
    ng serve
    ```
-
+   
 **Open your browser**:
    ```bash
    http://localhost:4200/
